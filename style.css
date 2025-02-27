@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    font-family: "Raleway", serif;
+}
+
+
+
+/* Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    background-color: #fff;
+    width: 100%;
+}
+
+.link-logo {
+    letter-spacing: 4px;
+}
+
+.link {
+    font-size: 15px;
+    padding: 16px;
+    line-height: 27px;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #ccc;
+}
+
+
+
+
+
+
+/* Banner */
+
+#banner {
+    position: relative;
+    background: url(https://www.w3schools.com/w3images/mac.jpg) center / cover no-repeat;
+    height: 100vh;
+    filter: grayscale(0.5);
+}
+
+.hero-section {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 48px;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 64px;
+    line-height: 120px;
+    font-weight: 400;
+}
+
+.hero-desc {
+    font-size: 18px;
+}
+
+.more-btn {
+    margin: 15px 0;
+}
+
+.link-more {
+    padding: 12px 24px;
+    margin-top: 16px;
+    color: #000;
+    background-color: #ccc;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.link-more:hover {
+    background-color: #aaa;
+}
+
+
+
+
+
+
+
+/* Content */
+
+.content-about {
+    padding: 128px 16px;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 400;
+    line-height: 58px;
+}
+
+.about-desc {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.feature {
+    padding: 0 8px;
+    margin-top: 64px;
+}
+
+.feature-icon {
+    font-size: 58px;
+    margin-bottom: 16px;
+}
+
+.feature-name {
+    font-size: 18px;
+    margin: 18px 0;
+    display: inline-block;
+}
+
+.feature-desc {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+/* Design */
+
+.content-design {
+    background-color: rgb(241, 241, 241);
+    padding: 128px 16px;
+
+}
+
+.design-section {
+    padding: 0 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.design-text {
+    padding: 0 8px;
+}
+
+
+.design-title {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.design-desc {
+    font-size: 15px;
+    margin: 15px 0;
+    display: block;
+}
+
+
+.design-image {
+    padding: 0 8px;
+}
+
+.imgae-view {
+    width: 700px;
+    max-width: 100%;
+    border-radius: 8px !important;
+}
+
+.view {
+    margin: 15px 0;
+    line-height: 32px;
+}
+
+
+
+.view-btn {
+    font-size: 15px;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.view-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.view-btn i {
+    margin-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+/* Member Team*/
+
+.content-team {
+    padding: 128px 16px;
+}
+
+.team-title {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+
+.team-desc {
+    text-align: center;
+    font-size: 18px;
+    padding: 18px 0;
+}
+
+.list-members {
+    display: flex;
+    margin-top: 64px;
+}
+
+.member {
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+
+}
+
+.member-image {
+    width: 100%;
+    filter: grayscale(0.5);
+}
+
+.member-info {
+    padding: 0 16px;
+}
+
+.member-name {
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.member-position {
+    font-size: 15px;
+    margin: 15px 0;
+    opacity: 0.7;
+    display: inline-block;
+}
+
+.member-desc {
+    font-size: 15px;
+    margin: 15px 0;
+    display: inline-block;
+
+}
+
+.position-link {
+    margin: 15px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.position-btn {
+    width: 100%;
+    padding: 8px 16px;
+    display: block;
+    color: #000;
+    background-color: #f1f1f1;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.position-btn:hover {
+    background-color: #aaa;
+    color: #000;
+}
