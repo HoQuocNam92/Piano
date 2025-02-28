@@ -1,0 +1,26 @@
+@media (max-width:768px) {
+
+    .feature-list,
+    .design-section,
+    .list-members,
+    .content-promo,
+    .work-layout,
+    .skill-section,
+    .content-pricing,
+    .pricing-container {
+        display: block !important;
+    }
+
+    .pricing-container {
+        padding: 32px 16px !important;
+    }
+
+    .promo-section {
+        width: 100% !important;
+    }
+
+    .pricing-card {
+        width: 100% !important;
+        margin-bottom: 16px !important;
+    }
+}
