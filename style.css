@@ -7,6 +7,8 @@
 body,
 html {
     font-family: "Raleway", serif;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 
@@ -14,10 +16,8 @@ html {
 
 /* Bars */
 
-.bars {
-    position: absolute;
-    top: 0;
-    right: 0;
+.bars-icons {
+    float: right;
     padding: 16px;
     font-size: 20px;
     display: none;
@@ -40,12 +40,17 @@ html {
 #navbar {
     position: fixed;
     top: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     z-index: 9999;
     background-color: #fff;
     width: 100%;
+
 }
+
+
+
 
 .link-logo {
     letter-spacing: 4px;
@@ -98,6 +103,7 @@ html {
     background: url(https://www.w3schools.com/w3images/mac.jpg) center / cover no-repeat;
     height: 100vh;
     filter: grayscale(0.5);
+
 }
 
 .hero-section {
@@ -106,6 +112,8 @@ html {
     transform: translateY(-50%);
     padding: 48px;
     color: #fff;
+    width: 100%;
+
 }
 
 .hero-title {

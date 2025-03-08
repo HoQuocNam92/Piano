@@ -7,7 +7,9 @@
     .work-layout,
     .skill-section,
     .content-pricing,
-    .pricing-container {
+    .pricing-container,
+    .bars,
+    #navbar {
         display: block !important;
     }
 
@@ -24,17 +26,11 @@
         margin-bottom: 16px !important;
     }
 
-    #navbar {
-        display: block !important;
-    }
-
     .menu-list {
         display: none !important;
     }
 
-    .bars {
-        display: block !important;
-    }
+
 
 
 
