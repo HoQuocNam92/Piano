@@ -11,6 +11,31 @@ html {
 
 
 
+
+/* Bars */
+
+.bars {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 16px;
+    font-size: 20px;
+    display: none;
+}
+
+.bars:hover {
+    background-color: #ccc;
+}
+
+.show {
+    display: block !important;
+}
+
+
+
+
+
+
 /* Navbar */
 #navbar {
     position: fixed;
@@ -38,6 +63,28 @@ html {
 .link:hover {
     background-color: #ccc;
 }
+
+.menu-list-mobile .link-menu {
+    display: block;
+}
+
+.link-menu i {
+    margin-right: 8px;
+}
+
+.menu-list-mobile {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
