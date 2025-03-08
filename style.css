@@ -13,19 +13,6 @@ html {
 
 
 
-/* Bars */
-
-.bars-icons {
-    float: right;
-    padding: 16px;
-    font-size: 20px;
-    display: none;
-}
-
-.bars:hover {
-    background-color: #ccc;
-}
-
 
 
 
@@ -76,6 +63,30 @@ html {
 
 .menu-list-mobile {
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Bars */
+
+.bars-icons {
+    float: right;
+    padding: 16px;
+    font-size: 20px;
+    display: none;
+}
+
+.bars:hover {
+    background-color: #ccc;
 }
 
 
