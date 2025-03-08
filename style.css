@@ -49,6 +49,9 @@ html {
 
 
 
+.logo {
+    display: inline-block;
+}
 
 .link-logo {
     letter-spacing: 4px;
