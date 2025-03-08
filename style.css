@@ -7,8 +7,7 @@
 body,
 html {
     font-family: "Raleway", serif;
-    overflow-x: hidden;
-    max-width: 100%;
+
 }
 
 
@@ -43,10 +42,9 @@ html {
     left: 0;
     display: flex;
     justify-content: space-between;
-    z-index: 9999;
     background-color: #fff;
     width: 100%;
-
+    z-index: 1000;
 }
 
 
@@ -103,16 +101,16 @@ html {
     background: url(https://www.w3schools.com/w3images/mac.jpg) center / cover no-repeat;
     height: 100vh;
     filter: grayscale(0.5);
-
+    z-index: 1;
 }
 
 .hero-section {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
-    padding: 48px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #fff;
-    width: 100%;
+
 
 }
 
@@ -601,13 +599,12 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+
 }
 
 .contact-container {
     background: white;
-    padding: 30px;
-    width: 600px;
+
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
